@@ -250,7 +250,7 @@ function get20s(arr) {
         birth = arr[i].years.split(' ', 1);
         //console.log(`${arr[i].name} was born on ${birth}`)
         if (birth >= 1900 && birth <= 1999) {
-            console.log(true)
+            //console.log(true)
             newArr.push(arr[i].name);
         }
     }
